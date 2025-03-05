@@ -8,7 +8,7 @@ function App() {
             <header className="relative h-screen flex items-center justify-center overflow-hidden">
                 {/* Logo in top left corner */}
                 <div className="absolute top-6 left-6 z-20">
-                    <img src="/images/logovr.jpg" alt="VrLife Logo" className="w-24 h-24 rounded-full shadow-lg" />
+                    <img src="/images/logo_vr.jpg" alt="VrLife Logo" className="w-24 h-24 rounded-full shadow-lg object-cover" />
                 </div>
 
                 <div className="absolute inset-0">
@@ -134,7 +134,7 @@ function App() {
             <footer className="bg-black/50 py-8 px-4">
                 <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center">
                     <div className="flex items-center mb-4 md:mb-0">
-                        <img src="/images/logovr.jpg" alt="VrLife Logo" className="w-12 h-12 rounded-full mr-2" />
+                        <img src="/images/logo_vr.jpg" alt="VrLife Logo" className="w-12 h-12 rounded-full mr-2 object-cover" />
                         <span className="text-xl font-bold">VrFly</span>
                     </div>
                     <div className="text-sm text-gray-400">
