@@ -21,7 +21,7 @@ function App() {
                 <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
                     <div className="flex items-center justify-center mb-6">
                         <Globe2 className="w-12 h-12 mr-3" />
-                        <h1 className="text-6xl font-bold">VrLife</h1>
+                        <h1 className="text-6xl font-bold">VrFly</h1>
                     </div>
                     <p className="text-2xl mb-8">Voyagez à travers le monde depuis votre canapé</p>
                     <p className="text-xl mb-12">Une expérience immersive unique en réalité virtuelle</p>
@@ -64,7 +64,7 @@ function App() {
                         <div className="bg-gradient-to-b from-purple-900/50 to-indigo-900/50 rounded-2xl p-8 backdrop-blur-sm">
                             <Headphones className="w-12 h-12 mb-6 text-purple-400" />
                             <h3 className="text-2xl font-bold mb-4">Free</h3>
-                            <p className="text-gray-300 mb-6">Parfait pour découvrir VrLife</p>
+                            <p className="text-gray-300 mb-6">Parfait pour découvrir VrFly</p>
                             <p className="text-4xl font-bold mb-8">0€ <span className="text-sm font-normal">/mois</span></p>
                             <ul className="space-y-4 mb-8">
                                 <li className="flex items-center"><Check className="w-5 h-5 mr-3 text-purple-400" />3 villes disponibles</li>
@@ -80,7 +80,7 @@ function App() {
                         <div className="bg-gradient-to-b from-purple-800/50 to-indigo-800/50 rounded-2xl p-8 backdrop-blur-sm transform scale-105">
                             <Globe2 className="w-12 h-12 mb-6 text-purple-400" />
                             <h3 className="text-2xl font-bold mb-4">Standard</h3>
-                            <p className="text-gray-300 mb-6">L'essentiel de VrLife</p>
+                            <p className="text-gray-300 mb-6">L'essentiel de VrFly</p>
                             <p className="text-4xl font-bold mb-8">19.99€ <span className="text-sm font-normal">/mois</span></p>
                             <ul className="space-y-4 mb-8">
                                 <li className="flex items-center"><Check className="w-5 h-5 mr-3 text-purple-400" />Toutes les villes</li>
@@ -135,10 +135,10 @@ function App() {
                 <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center">
                     <div className="flex items-center mb-4 md:mb-0">
                         <img src="/images/logovr.jpg" alt="VrLife Logo" className="w-12 h-12 rounded-full mr-2" />
-                        <span className="text-xl font-bold">VrLife</span>
+                        <span className="text-xl font-bold">VrFly</span>
                     </div>
                     <div className="text-sm text-gray-400">
-                        © 2024 VrLife. Tous droits réservés.
+                        © 2024 VrFly. Tous droits réservés.
                     </div>
                 </div>
             </footer>
