@@ -1,7 +1,27 @@
-import React from 'react';
-import { Globe2, Headphones, Crown, Map, Music, Video, Check } from 'lucide-react';
+import React, { useState, useEffect } from 'react';
+import { Globe2, Wifi, Crown, Map, Music, Video, Check } from 'lucide-react';
 
 function App() {
+    const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+    const backgroundImages = [
+        "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&q=80", // Montagnes majestueuses
+        "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?auto=format&fit=crop&q=80", // Plage tropicale
+        "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&q=80", // Forêt brumeuse
+        "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?auto=format&fit=crop&q=80", // Lac alpin
+        "https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&q=80"  // Aurore boréale
+    ];
+
+    useEffect(() => {
+        const timer = setInterval(() => {
+            setCurrentImageIndex((prevIndex) =>
+                prevIndex === backgroundImages.length - 1 ? 0 : prevIndex + 1
+            );
+        }, 5000); // Change image every 5 seconds
+
+        return () => clearInterval(timer);
+    }, []);
+
     return (
         <div className="min-h-screen bg-gradient-to-b from-indigo-900 via-purple-900 to-black text-white">
             {/* Hero Section */}
@@ -11,13 +31,15 @@ function App() {
                     <img src="/images/logo_vr.jpg" alt="VrLife Logo" className="w-24 h-24 rounded-full shadow-lg object-cover" />
                 </div>
 
-                <div className="absolute inset-0">
+                <div className="absolute inset-0 transition-opacity duration-1000">
                     <img
-                        src="https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?auto=format&fit=crop&q=80"
-                        alt="VR Experience"
+                        src={backgroundImages[currentImageIndex]}
+                        alt="Paysage VR"
                         className="w-full h-full object-cover opacity-40"
                     />
+                    <div className="absolute inset-0 bg-black/30"></div>
                 </div>
+
                 <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
                     <div className="flex items-center justify-center mb-6">
                         <Globe2 className="w-12 h-12 mr-3" />
@@ -62,7 +84,7 @@ function App() {
                     <div className="grid md:grid-cols-3 gap-8">
                         {/* Free Plan */}
                         <div className="bg-gradient-to-b from-purple-900/50 to-indigo-900/50 rounded-2xl p-8 backdrop-blur-sm">
-                            <Headphones className="w-12 h-12 mb-6 text-purple-400" />
+                            <Wifi className="w-12 h-12 mb-6 text-purple-400" />
                             <h3 className="text-2xl font-bold mb-4">Free</h3>
                             <p className="text-gray-300 mb-6">Parfait pour découvrir VrFly</p>
                             <p className="text-4xl font-bold mb-8">0€ <span className="text-sm font-normal">/mois</span></p>
