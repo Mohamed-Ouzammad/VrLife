@@ -8,7 +8,6 @@ function App() {
         "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&q=80", // Montagnes majestueuses
         "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?auto=format&fit=crop&q=80", // Plage tropicale
         "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&q=80", // Forêt brumeuse
-        "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?auto=format&fit=crop&q=80", // Lac alpin
         "https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&q=80"  // Aurore boréale
     ];
 
@@ -28,7 +27,7 @@ function App() {
             <header className="relative h-screen flex items-center justify-center overflow-hidden">
                 {/* Logo in top left corner */}
                 <div className="absolute top-6 left-6 z-20">
-                    <img src="/images/logo_vr.jpg" alt="VrLife Logo" className="w-28 h-28    rounded-full shadow-lg object-cover" />
+                    <img src="/images/logo_vr.jpg" alt="VrLife Logo" className="w-24 h-24 rounded-full shadow-lg object-cover" />
                 </div>
 
                 <div className="absolute inset-0 transition-opacity duration-1000">
