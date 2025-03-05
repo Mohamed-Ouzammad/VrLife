@@ -45,6 +45,7 @@ function App() {
                         <Globe2 className="w-12 h-12 mr-3" />
                         <h1 className="text-6xl font-bold">VrFly</h1>
                     </div>
+                    <h1 className="text-6xl font-bold">Le monde est a vous !</h1> <br />
                     <p className="text-2xl mb-8">Voyagez à travers le monde depuis votre canapé</p>
                     <p className="text-xl mb-12">Une expérience immersive unique en réalité virtuelle</p>
                     <button className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-4 rounded-full text-xl font-semibold transition-all transform hover:scale-105">
