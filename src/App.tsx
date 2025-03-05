@@ -28,7 +28,7 @@ function App() {
             <header className="relative h-screen flex items-center justify-center overflow-hidden">
                 {/* Logo in top left corner */}
                 <div className="absolute top-6 left-6 z-20">
-                    <img src="/images/logo_vr.jpg" alt="VrLife Logo" className="w-24 h-24 rounded-full shadow-lg object-cover" />
+                    <img src="/images/logo_vr.jpg" alt="VrLife Logo" className="w-28 h-28    rounded-full shadow-lg object-cover" />
                 </div>
 
                 <div className="absolute inset-0 transition-opacity duration-1000">
