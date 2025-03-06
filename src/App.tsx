@@ -120,7 +120,7 @@ function App() {
                             <Crown className="w-12 h-12 mb-6 text-purple-400" />
                             <h3 className="text-2xl font-bold mb-4">Premium</h3>
                             <p className="text-gray-300 mb-6">L'expérience ultime</p>
-                            <p className="text-4xl font-bold mb-8">39.99€ <span className="text-sm font-normal">/mois</span></p>
+                            <p className="text-4xl font-bold mb-8">59.99€ <span className="text-sm font-normal">/mois</span></p>
                             <ul className="space-y-4 mb-8">
                                 <li className="flex items-center"><Check className="w-5 h-5 mr-3 text-purple-400" />Tout le contenu Standard</li>
                                 <li className="flex items-center"><Check className="w-5 h-5 mr-3 text-purple-400" />Tous les événements</li>
