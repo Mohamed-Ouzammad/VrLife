@@ -85,9 +85,9 @@ function App() {
                         {/* Free Plan */}
                         <div className="bg-gradient-to-b from-purple-900/50 to-indigo-900/50 rounded-2xl p-8 backdrop-blur-sm">
                             <Wifi className="w-12 h-12 mb-6 text-purple-400" />
-                            <h3 className="text-2xl font-bold mb-4">Free</h3>
-                            <p className="text-gray-300 mb-6">Parfait pour découvrir VrFly</p>
-                            <p className="text-4xl font-bold mb-8">0€ <span className="text-sm font-normal">/mois</span></p>
+                            <h3 className="text-2xl font-bold mb-4">Evenement</h3>
+                            <p className="text-gray-300 mb-6">Vivez comme vous y étiez</p>
+                            <p className="text-4xl font-bold mb-8">A partir de 10€</p>
                             <ul className="space-y-4 mb-8">
                                 <li className="flex items-center"><Check className="w-5 h-5 mr-3 text-purple-400" />3 villes disponibles</li>
                                 <li className="flex items-center"><Check className="w-5 h-5 mr-3 text-purple-400" />Qualité HD</li>
@@ -101,7 +101,7 @@ function App() {
                         {/* Standard Plan */}
                         <div className="bg-gradient-to-b from-purple-800/50 to-indigo-800/50 rounded-2xl p-8 backdrop-blur-sm transform scale-105">
                             <Globe2 className="w-12 h-12 mb-6 text-purple-400" />
-                            <h3 className="text-2xl font-bold mb-4">Standard</h3>
+                            <h3 className="text-2xl font-bold mb-4">Voyage</h3>
                             <p className="text-gray-300 mb-6">L'essentiel de VrFly</p>
                             <p className="text-4xl font-bold mb-8">19.99€ <span className="text-sm font-normal">/mois</span></p>
                             <ul className="space-y-4 mb-8">
@@ -118,7 +118,7 @@ function App() {
                         {/* Premium Plan */}
                         <div className="bg-gradient-to-b from-purple-900/50 to-indigo-900/50 rounded-2xl p-8 backdrop-blur-sm">
                             <Crown className="w-12 h-12 mb-6 text-purple-400" />
-                            <h3 className="text-2xl font-bold mb-4">Premium</h3>
+                            <h3 className="text-2xl font-bold mb-4">Liberté</h3>
                             <p className="text-gray-300 mb-6">L'expérience ultime</p>
                             <p className="text-4xl font-bold mb-8">59.99€ <span className="text-sm font-normal">/mois</span></p>
                             <ul className="space-y-4 mb-8">
